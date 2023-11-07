@@ -16,7 +16,7 @@
     padding-bottom: 2rem;
 }
 
-.bannerBackgroundImage {
+.bannerBG {
     z-index: 1;
     position: fixed;
     width: 100%;
@@ -49,4 +49,12 @@
     color: white;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.menu li:active {
+    color: #fff0a0;
+}
+
+.currentPage {
+    text-decoration: underline;
 }
