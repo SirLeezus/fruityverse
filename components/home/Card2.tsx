@@ -1,7 +1,7 @@
 import styles from "../../styles/card.module.css";
 import React from "react";
 import Image from "next/image";
-import BlackCherryQueen from "@/public/imgs/home/black_cherry_queen.png";
+import BlackCherryQueen from "@/public/imgs/home/black_cherry_queen.svg";
 
 interface CardProps {
     borderColor: string;
