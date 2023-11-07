@@ -55,6 +55,10 @@
     color: #fff0a0;
 }
 
+.menu li:hover {
+    color: #fff0a0;
+}
+
 .currentPage {
     text-decoration: underline;
 }

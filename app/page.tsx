@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import styles from "@/styles/home.module.css";
 import React from "react";
 import Header from "@/components/home/Header";
