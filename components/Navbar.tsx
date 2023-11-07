@@ -16,16 +16,16 @@ const Navbar = () => {
                 <Image src={NavBanner} alt="Navbanner" className={styles.bannerImage} />
                 <div className={styles.menu}>
                     <ul>
-                        <Link href="/" prefetch>
+                        <Link href="/">
                             <li className={pathname == "/" ? styles.currentPage : ""}>Home</li>
                         </Link>
-                        <Link href="/card_specs" prefetch>
+                        <Link href="/card_specs">
                             <li className={pathname == "/card_specs" ? styles.currentPage : ""}>Card Specs</li>
                         </Link>
-                        <Link href="/how_to_play" prefetch>
+                        <Link href="/how_to_play">
                             <li className={pathname == "/how_to_play" ? styles.currentPage : ""}>How To Play</li>
                         </Link>
-                        <Link href="/opensea" prefetch>
+                        <Link href="/opensea">
                             <li className={pathname == "/opensea" ? styles.currentPage : ""}>Opensea</li>
                         </Link>
                     </ul>
