@@ -7,7 +7,7 @@ interface CardProps {
     borderColor: string;
 }
 
-const Card1: React.FC<CardProps> = ({ borderColor}) => {
+const Card2: React.FC<CardProps> = ({ borderColor}) => {
     const containerStyle = {
         borderColor,
     };
@@ -25,4 +25,4 @@ const Card1: React.FC<CardProps> = ({ borderColor}) => {
     );
 }
 
-export default Card1;
+export default Card2;
