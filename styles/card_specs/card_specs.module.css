@@ -22,13 +22,12 @@
 
 .header h1 {
     font-size: 3rem;
-    color: black;
+    color: #ffc868;
     text-align: center;
 }
 
 .header p {
-    color: black;
-    font-weight: bold;
+    color: white;
 }
 
 .headerContent {

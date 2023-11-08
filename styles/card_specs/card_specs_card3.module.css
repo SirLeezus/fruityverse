@@ -1,7 +1,9 @@
 .container {
     position: relative;
     display: flex;
-    padding-right: 7rem;
+    padding-left: 7rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .sideImage {
@@ -9,7 +11,7 @@
 }
 
 .sideImage img {
-    width: 50%;
+    width: 20%;
     height: auto;
 }
 
@@ -17,21 +19,39 @@
     flex: 1;
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(100deg, #8e53f7, #c9749d 50%, #f98e53);
-    padding: 1.5rem;
+    background-image: linear-gradient(100deg, #cafbd7, #b0dbe9 50%, #94b9fc);
+    padding: 4rem;
     max-width: 50%;
     border-radius: 5rem;
+    gap: 3rem;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
 
-.cardText {
+.attributeContainer {
+    display: flex;
+    gap: 5rem;
     flex: 1;
-    color: white;
+    padding: 1rem;
+}
+
+.attributeImageContainer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.attributeContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.cardText {
+    color: black;
     font-size: 0.7vw;
     text-align: left;
-    padding: 1rem;
 }
 
 .cardText p {
@@ -44,9 +64,6 @@
         padding: 2rem;
         flex-direction: column;
     }
-    .cardText {
-        order: 1;
-    }
     .cardText p {
         font-size: 3vw;
     }
@@ -55,9 +72,15 @@
     }
     .card {
         max-width: 100%;
+        order: 2;
+        padding: 3rem;
     }
     .sideImage img {
         padding-bottom: 5rem;
-        padding-top: 3rem;
+        order: 1;
+        width: 70%;
+    }
+    .attributeContainer {
+        gap: 0.5rem;
     }
 }
