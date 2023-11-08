@@ -9,6 +9,7 @@
     border-radius: 5rem;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
     gap: 2rem;
+    border: 0.5rem solid #ff8f00;
 }
 
 .containerTextBG {

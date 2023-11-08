@@ -26,6 +26,7 @@
     max-width: 50%;
     border-radius: 5rem;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+    border: 0.5rem solid #068000;
 }
 
 .attributeContainer {
