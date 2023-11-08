@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #e0c673;
+    width: 89%;
+    padding: 4rem;
+    border-radius: 5rem;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+    border: 1rem solid #35592a;
+}
+
+.containerText {
+    flex: 1;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.containerText h1 {
+    padding: 1rem;
+}
+
+.containerImage {
+    flex: 1;
+}
+
+.containerImage img {
+    max-width: 60%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .containerImage {
+        order: 1; /* Change the order so that the image comes before the text */
+    }
+    .containerText {
+        order: 2; /* Change the order so that the text comes after the image */
+        font-size: 3vw;
+    }
+}

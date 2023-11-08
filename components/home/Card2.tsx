@@ -1,4 +1,4 @@
-import styles from "../../styles/card.module.css";
+import styles from "../../styles/home_card.module.css";
 import React from "react";
 import Image from "next/image";
 import BlackCherryQueen from "@/public/imgs/home/black_cherry_queen.svg";

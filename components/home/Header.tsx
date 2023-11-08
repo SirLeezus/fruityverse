@@ -6,7 +6,7 @@ import HeaderImage from "@/public/imgs/home/home_banner.svg";
 const Header = () => {
     return (
         <header>
-            <div className={styles.headerTopSpace}></div>
+            <div className="headerTopSpace" />
             <div className={styles.header}>
                 <Image src={HeaderImage} alt="Header" fill={true} />
                 <h1>Fruityverse</h1>

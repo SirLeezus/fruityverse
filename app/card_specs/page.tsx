@@ -1,8 +1,7 @@
-import styles from "@/styles/home.module.css";
+import styles from "@/styles/card_specs.module.css";
 import React from "react";
-import Header from "@/components/home/Header";
-import Card1 from "@/components/home/Card1";
-import Card2 from "@/components/home/Card2";
+import Header from "@/components/card_specs/Header";
+import Card1 from "@/components/card_specs/Card1";
 import Footer from "@/components/home/Footer";
 
 export default function CardSpecs() {
@@ -10,8 +9,7 @@ export default function CardSpecs() {
         <main>
             <Header />
             <div className={styles.content}>
-                <Card1 borderColor="#35592a" />
-                <Card2 borderColor="#ea2148" />
+                <Card1 />
                 <Footer />
             </div>
         </main>

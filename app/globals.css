@@ -105,3 +105,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.headerTopSpace {
+  height: 3.5rem;
+}

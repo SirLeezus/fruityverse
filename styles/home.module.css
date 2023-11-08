@@ -27,10 +27,6 @@
     background: linear-gradient(rgba(34, 139, 34, 0.5), rgba(34, 139, 34, 0.2));
 }
 
-.headerTopSpace {
-    height: 3.5rem;
-}
-
 .buttonContainer {
     display: flex;
     flex-direction: column;
