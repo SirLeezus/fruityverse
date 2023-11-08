@@ -30,19 +30,21 @@
 
 .containerNumber {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
 }
 
 .number {
     border-radius: 2rem;
     background: #fff;
-    width: 2.3rem;
+    width: 1.7rem;
     border: 2px solid #337;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .containerText p {
-    padding: 0.6rem;
+    padding: 0 0 1rem 2.2rem;
     font-size: 1vw;
 }
 

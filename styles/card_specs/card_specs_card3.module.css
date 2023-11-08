@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(100deg, #cafbd7, #b0dbe9 50%, #94b9fc);
+    background-image: linear-gradient(100deg, #a0f1b2, #a1e0f8 70%, #94b9fc);
     padding: 3.5rem;
     max-width: 50%;
     border-radius: 5rem;
@@ -46,11 +46,13 @@
 }
 
 .cardContainer p {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
 
 .cardContainer h1 {
-    padding-bottom: 0.4rem;
+    padding-bottom: 1rem;
+    color: #01b610;
+    font-size: 2rem;
 }
 
 @media (max-width: 767px) {
