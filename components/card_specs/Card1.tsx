@@ -1,7 +1,7 @@
 import styles from "../../styles/card_specs/card_specs_card1.module.css";
 import React from "react";
 import Image from "next/image";
-import CardSpecs from "@/public/imgs/card_specs/card_specs.png";
+import AppleCard from "@/public/imgs/card_specs/apple_card.svg";
 
 const Card1 = () => {
     return (
@@ -25,7 +25,7 @@ const Card1 = () => {
                 </div>
             </div>
             <div className={styles.containerImage}>
-                <Image src={CardSpecs} alt="CardSpecs" />
+                <Image src={AppleCard} alt="AppleCard" />
             </div>
         </div>
     );

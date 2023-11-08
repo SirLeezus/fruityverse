@@ -27,7 +27,7 @@
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
 
-.cardText {
+.cardContainer {
     flex: 1;
     color: white;
     font-size: 0.7vw;
@@ -35,31 +35,18 @@
     padding: 1rem;
 }
 
-.cardText p {
+.cardContainer p {
     padding: 0.5rem;
     font-size: 1.1vw;
 }
 
-.rarityContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
+.cardContainer h1 {
+    padding-left: 0.4rem;
+    padding-bottom: 0.4rem;
 }
 
-.rarityImageContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.rarityImageContainerSolo {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.rarityImageContainer img {
-    width: 20vw;
+.cardContainer img {
+    width: 100%;
     height: auto;
 }
 
@@ -68,11 +55,11 @@
         padding: 2rem;
         flex-direction: column;
     }
-    .cardText p {
-        font-size: 3vw;
+    .cardContainer p {
+        font-size: 3.2vw;
         padding-bottom: 1.5rem;
     }
-    .cardText h1 {
+    .cardContainer h1 {
         font-size: 5vw;
     }
     .card {
@@ -81,8 +68,5 @@
     .sideImage img {
         padding-bottom: 5rem;
         width: 30%;
-    }
-    .rarityImageContainer img {
-        width: 33vw;
     }
 }
