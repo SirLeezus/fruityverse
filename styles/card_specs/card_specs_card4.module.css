@@ -1,9 +1,7 @@
 .container {
     position: relative;
     display: flex;
-    padding-left: 7rem;
-    align-items: center;
-    justify-content: center;
+    padding-right: 7rem;
 }
 
 .sideImage {
@@ -19,43 +17,50 @@
     flex: 1;
     position: relative;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(100deg, #cafbd7, #b0dbe9 50%, #94b9fc);
-    padding: 4rem;
+    background-image: linear-gradient(100deg, #3331c3, #1e89d5 50%, #00d2ff);
+    padding: 2rem;
     max-width: 50%;
     border-radius: 5rem;
-    gap: 3rem;
     box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
 
-.attributeContainer {
-    display: flex;
-    gap: 5rem;
-    flex: 1;
-    padding: 1rem;
-}
-
-.attributeImageContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.attributeContainer img {
-    width: 100%;
-    height: auto;
-}
-
 .cardText {
-    color: black;
+    flex: 1;
+    color: white;
     font-size: 0.7vw;
     text-align: left;
+    padding: 1rem;
 }
 
 .cardText p {
     padding: 0.5rem;
     font-size: 1.1vw;
+}
+
+.rarityContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rarityImageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rarityImageContainerSolo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.rarityImageContainer img {
+    width: 20vw;
+    height: auto;
 }
 
 @media (max-width: 767px) {
@@ -65,21 +70,19 @@
     }
     .cardText p {
         font-size: 3vw;
+        padding-bottom: 1.5rem;
     }
     .cardText h1 {
         font-size: 5vw;
     }
     .card {
         max-width: 100%;
-        order: 2;
-        padding: 3rem;
     }
     .sideImage img {
         padding-bottom: 5rem;
-        order: 1;
-        width: 70%;
+        width: 30%;
     }
-    .attributeContainer {
-        gap: 0.5rem;
+    .rarityImageContainer img {
+        width: 33vw;
     }
 }

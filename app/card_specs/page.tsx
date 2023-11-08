@@ -5,6 +5,7 @@ import Card1 from "@/components/card_specs/Card1";
 import Footer from "@/components/home/Footer";
 import Card2 from "@/components/card_specs/Card2";
 import Card3 from "@/components/card_specs/Card3";
+import Card4 from "@/components/card_specs/Card4";
 
 export default function CardSpecs() {
     return (
@@ -14,6 +15,7 @@ export default function CardSpecs() {
                 <Card1 />
                 <Card2 />
                 <Card3 />
+                <Card4 />
                 <Footer />
             </div>
         </main>
