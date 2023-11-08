@@ -88,7 +88,7 @@
 .content {
     position: relative;
     display: flex;
-    gap: 3rem;
+    gap: 14rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -113,5 +113,8 @@
     .headerContent {
         order: 2;
         padding-bottom: 4rem;
+    }
+    .content {
+        gap: 2rem;
     }
 }

@@ -1,4 +1,4 @@
-import styles from "../../styles/card_specs.module.css";
+import styles from "../../styles/card_specs/card_specs.module.css";
 import React from "react";
 import Image from "next/image";
 import HeaderImage from "@/public/imgs/card_specs/pineapple.svg";

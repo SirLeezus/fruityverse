@@ -1,4 +1,4 @@
-import styles from "../../styles/home.module.css";
+import styles from "../../styles/home/home.module.css";
 import React from "react";
 import Image from "next/image";
 import HeaderImage from "@/public/imgs/home/home_banner.svg";

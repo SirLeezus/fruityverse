@@ -1,4 +1,4 @@
-import styles from "@/styles/home.module.css";
+import styles from "@/styles/home/home.module.css";
 import React from "react";
 import Header from "@/components/home/Header";
 import Card1 from "@/components/home/Card1";
