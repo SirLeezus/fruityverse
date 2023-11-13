@@ -13,9 +13,9 @@ const Header = () => {
                     <h1>Understanding Cards at a Glance</h1>
                     <p>Your visual guide to reading card elements and meanings.</p>
                     <div className={styles.buttonContainer}>
-                        <Link href="https://opensea.io/collection/genesisgrove-fruityverse" passHref={true}>
+                        <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
                             <button className={styles.buttonHeader}><span>View On Opensea</span></button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className={styles.headerImage}>

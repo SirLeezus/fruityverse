@@ -25,9 +25,9 @@ const Navbar = () => {
                         <Link href="/how_to_play">
                             <li className={pathname == "/how_to_play" ? styles.currentPage : ""}>How To Play</li>
                         </Link>
-                        <Link href="https://opensea.io/collection/genesisgrove-fruityverse" passHref={true}>
+                        <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
                             <li>Opensea</li>
-                        </Link>
+                        </a>
                     </ul>
                 </div>
             </nav>

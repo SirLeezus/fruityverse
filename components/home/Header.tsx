@@ -12,9 +12,9 @@ const Header = () => {
                 <Image src={HeaderImage} alt="Header" fill={true} />
                 <h1>Fruityverse</h1>
                 <div className={styles.buttonContainer}>
-                    <Link href="https://opensea.io/collection/genesisgrove-fruityverse" passHref={true}>
+                    <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
                         <button className={styles.buttonHome}><span>View On Opensea</span></button>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </header>
