@@ -1,7 +1,7 @@
-import styles from "../../styles/card_specs/card_specs_card3.module.css";
+import styles from "../../styles/card-specs/card_specs_card3.module.css";
 import React from "react";
-import WatermelonLeaves from "@/public/imgs/card_specs/watermelon_leaves.svg";
-import Attribute from "@/public/imgs/card_specs/attribute.svg";
+import WatermelonLeaves from "@/public/imgs/card-specs/watermelon_leaves.svg";
+import Attribute from "@/public/imgs/card-specs/attribute.svg";
 import Image from "next/image";
 
 const Card3 = () => {

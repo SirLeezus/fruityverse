@@ -1,12 +1,7 @@
-import styles from "../../styles/card_specs/card_specs_card4.module.css";
+import styles from "../../styles/card-specs/card_specs_card4.module.css";
 import React from "react";
-import GrapeLeaves from "@/public/imgs/card_specs/grape_leaves.svg";
-import RarityCommon from "@/public/imgs/card_specs/rarity_common.png";
-import RarityRare from "@/public/imgs/card_specs/rarity_rare.png";
-import RarityUltraRare from "@/public/imgs/card_specs/rarity_ultra_rare.png";
-import RarityUncommon from "@/public/imgs/card_specs/rarity_uncommon.png";
-import RarityLegendary from "@/public/imgs/card_specs/rarity_legendary.png";
-import Rarity from "@/public/imgs/card_specs/rarity.svg";
+import GrapeLeaves from "@/public/imgs/card-specs/grape_leaves.svg";
+import Rarity from "@/public/imgs/card-specs/rarity.svg";
 import Image from "next/image";
 
 const Card4 = () => {

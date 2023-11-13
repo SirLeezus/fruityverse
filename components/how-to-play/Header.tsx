@@ -1,7 +1,7 @@
-import styles from "../../styles/how_to_play/how_to_play.module.css";
+import styles from "../../styles/how-to-play/how_to_play.module.css";
 import React from "react";
 import Image from "next/image";
-import HeaderImage from "@/public/imgs/how_to_play/melon.png";
+import HeaderImage from "@/public/imgs/how-to-play/melon.png";
 
 const Header = () => {
     return (

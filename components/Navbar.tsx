@@ -19,11 +19,11 @@ const Navbar = () => {
                         <Link href="/">
                             <li className={pathname == "/" ? styles.currentPage : ""}>Home</li>
                         </Link>
-                        <Link href="/card_specs">
-                            <li className={pathname == "/card_specs" ? styles.currentPage : ""}>Card Specs</li>
+                        <Link href="/card-specs">
+                            <li className={pathname == "/card-specs" ? styles.currentPage : ""}>Card Specs</li>
                         </Link>
-                        <Link href="/how_to_play">
-                            <li className={pathname == "/how_to_play" ? styles.currentPage : ""}>How To Play</li>
+                        <Link href="/how-to-play">
+                            <li className={pathname == "/how-to-play" ? styles.currentPage : ""}>How To Play</li>
                         </Link>
                         <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
                             <li>Opensea</li>

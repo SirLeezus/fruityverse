@@ -1,7 +1,7 @@
-import styles from "../../styles/card_specs/card_specs_card1.module.css";
+import styles from "../../styles/card-specs/card_specs_card1.module.css";
 import React from "react";
 import Image from "next/image";
-import AppleCard from "@/public/imgs/card_specs/apple_card.svg";
+import AppleCard from "@/public/imgs/card-specs/apple_card.svg";
 
 const Card1 = () => {
     return (

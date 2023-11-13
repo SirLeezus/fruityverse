@@ -1,7 +1,7 @@
-import styles from "../../styles/card_specs/card_specs_card2.module.css";
+import styles from "../../styles/card-specs/card_specs_card2.module.css";
 import React from "react";
-import LemonLeaves from "@/public/imgs/card_specs/lemon_leaves.svg";
-import Themes from "@/public/imgs/card_specs/themes.svg";
+import LemonLeaves from "@/public/imgs/card-specs/lemon_leaves.svg";
+import Themes from "@/public/imgs/card-specs/themes.svg";
 import Image from "next/image";
 
 const Card2 = () => {

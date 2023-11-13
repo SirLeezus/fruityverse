@@ -1,4 +1,4 @@
-import styles from "../../styles/how_to_play/how_to_play_card1.module.css";
+import styles from "../../styles/how-to-play/how_to_play_card1.module.css";
 import React from "react";
 
 const Card1 = () => {
