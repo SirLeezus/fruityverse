@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerBlock {
+    display: flex;
+    gap: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.containerBlockChild {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card {
+    background: #daebea;
+    padding: 1.5rem;
+    max-width: 100%;
+    border-radius: 5rem;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+    border: 2rem solid #33adfc;
+}
+
+.cardContainer {
+    color: black;
+    font-size: 0.7vw;
+    text-align: left;
+    padding: 1rem;
+}
+
+.cardContainer img {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.cardContainer p {
+    padding: 0.5rem;
+    font-size: 1.2vw;
+}
+
+.cardContainer h2 {
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
+}
+
+.cardContainer h1 {
+    padding-bottom: 0.5rem;
+    padding-left: 0.4rem;
+    color: #2fb5fc;
+    font-size: 2rem;
+}
+
+.titleContainer {
+    padding-bottom: 3rem;
+    font-size: 1.2vw;
+    color: #a9f7ff;
+}
+
+.pageTitle {
+    padding-bottom: 4rem;
+
+}
+
+.titleGradient {
+    background-color: #4158D0;
+    background-image: linear-gradient(to right, #1693ff, #3d96ff, #0b54ff);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line {
+    padding: 5rem;
+    border-bottom: 4rem solid #7bc2ff;
+    width: 200%;
+    transform: rotate(-2deg);
+    transform-origin: left;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .containerBlock {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .containerBlockChild {
+        gap: 2rem;
+    }
+    .cardContainer p {
+        font-size: 3.5vw;
+    }
+    .cardContainer h1 {
+        font-size: 5vw;
+    }
+    .cardContainer h2 {
+        font-size: 4vw;
+    }
+    .card {
+        max-width: 100%;
+    }
+    .containerBlock {
+        padding: 0;
+    }
+    .titleContainer {
+        font-size: 3.2vw;
+    }
+}

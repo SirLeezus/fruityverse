@@ -1,0 +1,121 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgb(144, 84, 247), rgb(249, 142, 82));
+    padding-bottom: 14rem;
+}
+
+.headerImage {
+    flex: 1;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #01e6e7;
+    text-align: center;
+}
+
+.header p {
+    color: #ffffff;
+}
+
+.headerContent {
+    flex: 1;
+    padding: 14rem 10rem 10rem;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.buttonHeader {
+    align-items: center;
+    background-image: linear-gradient(144deg, #08a0c2, #33e0ff 50%, #08a0c2);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.buttonHeader:active,
+.buttonHeader:hover {
+    outline: 0;
+}
+
+.buttonHeader span {
+    background-color: #00a7a9;
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.buttonHeader:hover span {
+    background: none;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+    background: rgb(249, 142, 82);
+}
+
+@media (max-width: 767px) {
+    .headerContent {
+        padding: 1rem;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+    }
+    .headerImage {
+        order: 1;
+        max-width: 63%;
+    }
+    .headerContent {
+        order: 2;
+        padding-bottom: 4rem;
+    }
+    .content {
+        gap: 2rem;
+    }
+}
