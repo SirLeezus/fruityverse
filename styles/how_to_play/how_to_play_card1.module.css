@@ -62,20 +62,21 @@
     font-size: 2rem;
 }
 
+.titleContainerBorder {
+    padding: 1rem;
+    border: 0.3rem solid #33adfc;
+    border-radius: 5rem;
+}
+
 .titleContainer {
     padding-bottom: 3rem;
     font-size: 1.2vw;
     color: #a9f7ff;
 }
 
-.pageTitle {
-    padding-bottom: 4rem;
-
-}
-
 .titleGradient {
     background-color: #4158D0;
-    background-image: linear-gradient(to right, #1693ff, #3d96ff, #0b54ff);
+    background-image: linear-gradient(to bottom, #44a2ff, #298fff, #3970f8);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;

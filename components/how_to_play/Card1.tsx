@@ -5,7 +5,9 @@ const Card1 = () => {
     return (
         <div className={styles.container}>
             <div className={styles.titleContainer}>
-                <h1>Understanding the Basics</h1>
+                <div className={styles.titleGradient}>
+                    <h1>Understanding the Basics</h1>
+                </div>
             </div>
             <div className={styles.containerBlock}>
                 <div className={styles.containerBlockChild}>
@@ -49,8 +51,8 @@ const Card1 = () => {
                 </div>
             </div>
             <div className={styles.titleContainer} style={{paddingTop:"5rem"}}>
-                <h1>Turn Phases</h1>
-                <h2>A player’s turn is considered 1 year in the Fruityverse. There are 4 phases.</h2>
+                <div className={styles.titleGradient}><h1>Turn Phases</h1></div>
+                <div className={styles.titleGradient}><h2>A player’s turn is considered 1 year in the Fruityverse. There are 4 phases.</h2></div>
             </div>
             <div className={styles.containerBlock}>
                 <div className={styles.containerBlockChild}>
@@ -93,7 +95,7 @@ const Card1 = () => {
                 </div>
             </div>
             <div className={styles.titleContainer} style={{paddingTop:"5rem"}}>
-                <h1>Understanding the Game Mechanics</h1>
+                <div className={styles.titleGradient}><h1>Understanding the Game Mechanics</h1></div>
             </div>
             <div className={styles.containerBlock}>
                 <div className={styles.containerBlockChild}>
