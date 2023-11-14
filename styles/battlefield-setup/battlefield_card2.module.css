@@ -1,0 +1,98 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background: #1b3132;
+    max-width: 91%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 5rem;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+    border: 0.5rem solid #315a5b;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer img {
+    max-width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.cardContainer h1 {
+    color: #fdc500;
+    text-align: left;
+    font-size: 2.3vw;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.textContainer {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.textColum {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.textBox {
+    background: #1b4b48;
+    padding: 0.7rem;
+    color: white;
+    text-align: left;
+    max-height: 6rem;
+    min-height: 6rem;
+}
+
+@media (max-width: 767px) {
+    .cardContainer h1 {
+        padding: 2rem;
+        font-size: 7vw;
+        position: relative;
+        text-align: center;
+        order: 1;
+    }
+    .cardContainer img {
+        order: 2;
+    }
+    .cardContainer {
+        position: relative;
+        flex-direction: column;
+    }
+    .card {
+        padding-top: 0;
+        max-width: 98%;
+    }
+    .textContainer {
+        order: 3;
+    }
+    .textColum {
+        padding: 0.5rem;
+    }
+    .textBox {
+        padding: 0.5rem;
+        max-height: 11rem;
+        min-height: 11rem;
+    }
+    .textBox h2 {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+    }
+}

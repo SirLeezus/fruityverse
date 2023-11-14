@@ -9,7 +9,7 @@ const Card1 = () => {
             <div className={styles.card}>
                 <div className={styles.cardContainer}>
                     <Image src={OpponentsField} alt="OpponentsField" />
-                    <h1>Opponent's Battlefield</h1>
+                    <h1>Opponent&rsquo;s Battlefield</h1>
                 </div>
             </div>
         </div>

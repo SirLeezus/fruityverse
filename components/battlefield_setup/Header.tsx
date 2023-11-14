@@ -1,7 +1,7 @@
 import styles from "../../styles/battlefield-setup/battlefield.module.css";
 import React from "react";
 import Image from "next/image";
-import HeaderImage from "@/public/imgs/battlefield-setup/battlefield-atf.svg";
+import HeaderImage from "@/public/imgs/battlefield-setup/battlefield_atf.svg";
 
 const Header = () => {
     return (
