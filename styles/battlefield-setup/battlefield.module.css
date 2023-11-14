@@ -1,3 +1,11 @@
+.background {
+    background: #476C44FF;
+}
+
+.spacer {
+    padding-top: 7rem;
+}
+
 .header {
     position: relative;
     display: flex;
@@ -8,7 +16,10 @@
     width: 100%;
     height: auto;
     background: linear-gradient(rgb(52, 100, 50), rgb(28, 50, 27));
-    padding-bottom: 14rem;
+    gap: 4rem;
+    border-radius: 0 0 5rem 5rem;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+    padding-bottom: 4rem;
 }
 
 .headerImage {
@@ -23,24 +34,27 @@
 
 .header h1 {
     font-size: 3rem;
-    color: #ffc868;
+    color: #fb6405;
     text-align: center;
 }
 
 .header p {
-    color: white;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .headerContent {
     flex: 1;
+    padding: 2rem;
 }
 
-.buttonContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
+.headerTextCard {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 208, 96));
+    padding: 7rem;
+    max-width: 100%;
+    border-radius: 5rem;
+    box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+    border: 0.5rem solid #ff671f;
 }
 
 .content {
@@ -52,17 +66,20 @@
     align-items: center;
     text-align: center;
     z-index: -1;
-    background: rgb(28, 50, 27);
+    background: rgb(71, 108, 68);
 }
 
 @media (max-width: 767px) {
-    .headerContent {
-        padding: 1rem;
+    .headerTextCard {
+        padding: 1.5rem 3rem 1.5rem 3rem;
     }
     .header {
         display: flex;
         flex-direction: column;
         padding-bottom: 1rem;
+    }
+    .header p {
+        padding-top: 1rem;
     }
     .headerImage {
         order: 1;
@@ -70,7 +87,7 @@
     }
     .headerContent {
         order: 2;
-        padding-bottom: 4rem;
+        padding-bottom: 2rem;
     }
     .content {
         gap: 2rem;
