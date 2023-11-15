@@ -4,10 +4,9 @@ import React from "react";
 const Card1 = () => {
     return (
         <div className={styles.container}>
+            <div className={styles.line} />
             <div className={styles.titleContainer}>
-                <div className={styles.titleGradient}>
-                    <h1>Understanding the Basics</h1>
-                </div>
+                <h1>Understanding the Basics</h1>
             </div>
             <div className={styles.containerBlock}>
                 <div className={styles.containerBlockChild}>
@@ -50,9 +49,10 @@ const Card1 = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.titleContainer} style={{paddingTop:"5rem"}}>
-                <div className={styles.titleGradient}><h1>Turn Phases</h1></div>
-                <div className={styles.titleGradient}><h2>A player’s turn is considered 1 year in the Fruityverse. There are 4 phases.</h2></div>
+            <div className={styles.line} />
+            <div className={styles.titleContainer}>
+                <h1>Turn Phases</h1>
+                <h2>A player’s turn is considered 1 year in the Fruityverse. There are 4 phases.</h2>
             </div>
             <div className={styles.containerBlock}>
                 <div className={styles.containerBlockChild}>
@@ -83,7 +83,7 @@ const Card1 = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.containerBlock}>
+            <div className={styles.containerBlock} style={{paddingBottom:"5rem"}}>
                 <div className={styles.containerBlockChild} style={{paddingTop:"2rem"}}>
                     <div className={styles.card}>
                         <div className={styles.cardContainer}>
@@ -94,8 +94,9 @@ const Card1 = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.titleContainer} style={{paddingTop:"5rem"}}>
-                <div className={styles.titleGradient}><h1>Understanding the Game Mechanics</h1></div>
+            <div className={styles.line} />
+            <div className={styles.titleContainer}>
+                <h1>Understanding the Game Mechanics</h1>
             </div>
             <div className={styles.containerBlock}>
                 <div className={styles.containerBlockChild}>

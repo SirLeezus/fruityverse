@@ -71,12 +71,12 @@
 .titleContainer {
     padding-bottom: 3rem;
     font-size: 1.2vw;
-    color: #a9f7ff;
+    color: #1694e7;
 }
 
 .titleGradient {
     background-color: #4158D0;
-    background-image: linear-gradient(to bottom, #44a2ff, #298fff, #3970f8);
+    background-image: linear-gradient(to bottom, #60adff, #3892ec, #2461ff);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -85,7 +85,7 @@
 
 .line {
     padding: 5rem;
-    border-bottom: 4rem solid #7bc2ff;
+    border-bottom: 4rem solid #33acfa;
     width: 200%;
     transform: rotate(-2deg);
     transform-origin: left;
