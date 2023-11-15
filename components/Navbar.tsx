@@ -13,23 +13,13 @@ const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef<HTMLLIElement>(null);
 
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-    };
-
-    const closeDropdown = useCallback(() => {
-        setIsOpen(false);
+    const handleMouseEnter = useCallback(() => {
+        setIsOpen(true);
     }, []);
 
-    useEffect(() => {
-        const handleDocumentClick = (event: MouseEvent) => {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-                closeDropdown();
-            }
-        };
-        document.addEventListener('mousedown', handleDocumentClick);
-        return () => document.removeEventListener('mousedown', handleDocumentClick);
-    }, [closeDropdown]);
+    const handleMouseLeave = useCallback(() => {
+        setIsOpen(false);
+    }, []);
 
     return (
         <div>
@@ -44,10 +34,12 @@ const Navbar: React.FC = () => {
                         <Link href="/card-specs">
                             <li className={pathname == "/card-specs" ? styles.currentPage : ""}>Card Specs</li>
                         </Link>
-                        <li ref={dropdownRef} className={pathname == '/how-to-play' ? styles.currentPage : ''} onClick={toggleDropdown}>
-                            How To Play
-                            {isOpen && <Dropdown />}
-                        </li>
+                        <Link href="/how-to-play">
+                            <li ref={dropdownRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                                <span className={pathname == '/how-to-play' ? styles.currentPage : ''}>How To Play</span> ▾
+                                {isOpen && <Dropdown />}
+                            </li>
+                        </Link>
                         <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
                             <li>Opensea</li>
                         </a>
