@@ -10,7 +10,7 @@ import Dropdown from "@/components/Dropdown";
 
 const Navbar: React.FC = () => {
     const pathname = usePathname();
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef<HTMLLIElement>(null);
 
     const toggleDropdown = () => {
