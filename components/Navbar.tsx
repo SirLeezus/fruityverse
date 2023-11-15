@@ -1,6 +1,6 @@
 'use client'
 
-import React, {useCallback, useEffect, useRef, useState} from 'react';
+import React, {useCallback, useRef, useState} from 'react';
 import Image from "next/image";
 import NavBanner from "../public/imgs/nav/nav_banner.svg";
 import Link from "next/link";
