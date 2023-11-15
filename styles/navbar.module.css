@@ -26,6 +26,7 @@
 }
 
 .menu {
+    user-select: none;
     padding-bottom: 2rem;
     position: absolute;
     top: 0;
@@ -61,4 +62,30 @@
 
 .currentPage {
     text-decoration: underline;
+}
+
+.dropdown {
+    padding-top: 1.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #e75353;
+}
+
+.dropdown li {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown ul {
+    display: block;
+}
+
+.dropdown li:hover {
+    background: #ff6262;
 }
