@@ -11,14 +11,14 @@ const MobileDropdown: React.FC = () => {
                 <Link href="/">
                     <li>Home</li>
                 </Link>
-                <Link href="/battlefield-setup">
-                    <li>Battlefield Setup</li>
-                </Link>
                 <Link href="/card-specs">
                     <li>Card Specs</li>
                 </Link>
                 <Link href="/how-to-play">
                     <li>How To Play</li>
+                </Link>
+                <Link href="/battlefield-setup">
+                    <li>Battlefield Setup</li>
                 </Link>
                 <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
                     <li>Opensea</li>
