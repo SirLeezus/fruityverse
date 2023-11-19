@@ -1,4 +1,5 @@
 import styles from "../../styles/battlefield-setup/battlefield.module.css";
+import breathing from "../../styles/breathing.module.css";
 import React from "react";
 import Image from "next/image";
 import HeaderImage from "@/public/imgs/battlefield-setup/battlefield_atf.svg";
@@ -15,7 +16,9 @@ const Header = () => {
                     </div>
                 </div>
                 <div className={styles.headerImage}>
-                    <Image src={HeaderImage} alt="Header" />
+                    <div className={breathing.breathing}>
+                        <Image src={HeaderImage} alt="Header" />
+                    </div>
                 </div>
             </div>
             <div className={styles.spacer} />

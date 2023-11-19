@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "../../styles/card-specs/card_specs_card1.module.css";
 import React from "react";
 import Image from "next/image";

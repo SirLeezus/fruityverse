@@ -105,6 +105,7 @@
     align-items: center;
     padding-top: 1rem;
     z-index: 2;
+    user-select: none;
 }
 
 .dropdown li {
@@ -149,7 +150,7 @@
     position: absolute;
     background-color: #e75353;
     margin-left: -4.5rem;
-    margin-top: 20rem;
+    margin-top: 20.53rem;
 }
 
 .mobileNavDropdown li {

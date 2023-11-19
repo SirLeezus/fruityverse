@@ -41,6 +41,6 @@
     }
     .containerText {
         order: 2; /* Change the order so that the text comes after the image */
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
