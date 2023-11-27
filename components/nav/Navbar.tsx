@@ -31,24 +31,24 @@ const Navbar: React.FC = () => {
         <div>
             {/* Desktop Navigation */}
             <nav className={`${styles.container} ${styles.desktopNav}`}>
-                <Image src={NavBanner} alt="Navbanner" className={styles.bannerImage} />
+                <Image src={NavBanner} alt="Navbanner" className={styles.bannerImage} priority={true} />
                 <div className={styles.menu}>
                     <ul>
-                        <Link href="/">
-                            <li className={pathname == "/" ? styles.currentPage : ""}>Home</li>
-                        </Link>
-                        <Link href="/card-specs">
-                            <li className={pathname == "/card-specs" ? styles.currentPage : ""}>Card Specs</li>
-                        </Link>
-                        <Link href="/how-to-play">
-                            <li ref={dropdownRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <li className={pathname == "/" ? styles.currentPage : ""}>
+                            <Link href="/">Home</Link>
+                        </li>
+                        <li className={pathname == "/card-specs" ? styles.currentPage : ""}>
+                            <Link href="/card-specs">Card Specs</Link>
+                        </li>
+                        <li ref={dropdownRef} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                            <Link href="/how-to-play">
                                 <span className={pathname == '/how-to-play' ? styles.currentPage : ''}>How To Play</span> ▾
-                                {isOpen && <Dropdown />}
-                            </li>
-                        </Link>
-                        <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
-                            <li>Opensea</li>
-                        </a>
+                            </Link>
+                            {isOpen && <Dropdown />}
+                        </li>
+                        <li>
+                            <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">Opensea</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

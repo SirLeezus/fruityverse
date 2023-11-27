@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
                 <div className={styles.headerImage}>
                     <div className={breathing.breathing}>
-                        <Image src={HeaderImage} alt="Header" />
+                        <Image src={HeaderImage} alt="Header" priority={true} />
                     </div>
                 </div>
             </div>

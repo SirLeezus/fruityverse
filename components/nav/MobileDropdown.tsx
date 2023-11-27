@@ -8,21 +8,21 @@ const MobileDropdown: React.FC = () => {
     return (
         <div className={styles.mobileNavDropdown}>
             <ul>
-                <Link href="/">
-                    <li>Home</li>
-                </Link>
-                <Link href="/card-specs">
-                    <li>Card Specs</li>
-                </Link>
-                <Link href="/how-to-play">
-                    <li>How To Play</li>
-                </Link>
-                <Link href="/battlefield-setup">
-                    <li>Battlefield Setup</li>
-                </Link>
-                <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
-                    <li>Opensea</li>
-                </a>
+                <li>
+                    <Link href="/">Home</Link>
+                </li>
+                <li>
+                    <Link href="/card-specs">Card Specs</Link>
+                </li>
+                <li>
+                    <Link href="/how-to-play">How To Play</Link>
+                </li>
+                <li>
+                    <Link href="/battlefield-setup">Battlefield Setup</Link>
+                </li>
+                <li>
+                    <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">Opensea</a>
+                </li>
             </ul>
         </div>
     );

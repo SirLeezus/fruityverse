@@ -9,7 +9,7 @@ const Header = () => {
         <header>
             <div className="headerTopSpace" />
             <div className={styles.header}>
-                <Image src={HeaderImage} alt="Header" fill={true} />
+                <Image src={HeaderImage} alt="Header" fill={true} priority={true} />
                 <h1>Fruityverse</h1>
                 <div className={styles.buttonContainer}>
                     <a href="https://opensea.io/collection/genesisgrove-fruityverse" target="_blank">
