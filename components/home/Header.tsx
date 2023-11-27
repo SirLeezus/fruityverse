@@ -2,7 +2,6 @@ import styles from "../../styles/home/home.module.css";
 import React from "react";
 import Image from "next/image";
 import HeaderImage from "@/public/imgs/home/home_banner.svg";
-import Link from "next/link";
 
 const Header = () => {
     return (
